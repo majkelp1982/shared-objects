@@ -16,8 +16,6 @@ public class AirExchanger {
   private int onTimeInMinutes;
   private int offTimeInMinutes;
 
-  private List<String> test;
-
   private List<TimeRange> workdayTimeRangeList;
   private List<TimeRange> weekendTimeRangeList;
 }
