@@ -1,16 +1,12 @@
 package pl.smarthouse.sharedobjects.dto.comfort;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.NonNull;
-import lombok.experimental.SuperBuilder;
+import lombok.*;
 import pl.smarthouse.sharedobjects.dto.comfort.core.AirExchanger;
 import pl.smarthouse.sharedobjects.dto.comfort.core.HumidityAlert;
 import pl.smarthouse.sharedobjects.dto.comfort.core.TemperatureControl;
 
 @Data
-@SuperBuilder
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor
 public class ComfortModuleSettingsDto {

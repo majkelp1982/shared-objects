@@ -1,16 +1,20 @@
 package pl.smarthouse.sharedobjects.dto.comfort.core;
 
 import java.util.List;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
 @Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class HeatingControl {
-  boolean heatingEnabled;
-  double lowTolerance;
-  double overheatingOn2Tariff;
+  private boolean heatingEnabled;
+  private double lowTolerance;
+  private double overheatingOn2Tariff;
 
-  List<TimeRange> workdayTimeRangeList;
-  List<TimeRange> weekendTimeRangeList;
+  private List<TimeRange> workdayTimeRangeList;
+  private List<TimeRange> weekendTimeRangeList;
 }

@@ -1,12 +1,16 @@
 package pl.smarthouse.sharedobjects.dto.comfort.core;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
 @Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class HumidityAlert {
-  boolean enabled;
-  int maxHumidity;
-  int delayTimeInMinutes;
+  private boolean enabled;
+  private int maxHumidity;
+  private int delayTimeInMinutes;
 }

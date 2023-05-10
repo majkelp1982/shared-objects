@@ -1,12 +1,16 @@
 package pl.smarthouse.sharedobjects.dto.comfort.core;
 
 import java.time.LocalTime;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
 @Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class TimeRange {
-  LocalTime from;
-  LocalTime to;
+  private LocalTime from;
+  private LocalTime to;
 }
