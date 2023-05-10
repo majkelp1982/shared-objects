@@ -1,11 +1,15 @@
 package pl.smarthouse.sharedobjects.dto.ventilation.core;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
-@Builder
 @Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class FansDto {
-  private final FanDto inlet;
-  private final FanDto outlet;
+  private FanDto inlet;
+  private FanDto outlet;
 }

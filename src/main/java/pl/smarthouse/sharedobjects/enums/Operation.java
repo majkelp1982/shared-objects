@@ -6,5 +6,6 @@ public enum Operation {
   HUMIDITY_ALERT,
   COOLING,
   AIR_CONDITION,
-  HEATING
+  HEATING,
+  AIR_HEATING
 }
