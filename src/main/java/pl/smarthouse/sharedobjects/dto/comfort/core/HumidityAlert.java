@@ -12,5 +12,7 @@ import lombok.NoArgsConstructor;
 public class HumidityAlert {
   private boolean enabled;
   private int maxHumidity;
+  private int requiredPower;
+  private int requiredTurboPower;
   private int delayTimeInMinutes;
 }

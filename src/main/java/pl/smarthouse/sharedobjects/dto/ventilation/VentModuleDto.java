@@ -6,7 +6,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
-import pl.smarthouse.sharedobjects.dao.ModuleDto;
+import pl.smarthouse.sharedobjects.dto.ModuleDto;
 import pl.smarthouse.sharedobjects.dto.ventilation.core.AirExchangerDto;
 import pl.smarthouse.sharedobjects.dto.ventilation.core.FansDto;
 import pl.smarthouse.sharedobjects.dto.ventilation.core.ForcedAirSystemExchangerDto;

@@ -1,4 +1,4 @@
-package pl.smarthouse.sharedobjects.dao;
+package pl.smarthouse.sharedobjects.dto;
 
 import java.time.LocalDateTime;
 import lombok.AllArgsConstructor;

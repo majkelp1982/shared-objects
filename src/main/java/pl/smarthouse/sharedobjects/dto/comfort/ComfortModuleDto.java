@@ -4,7 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
-import pl.smarthouse.sharedobjects.dao.ModuleDto;
+import pl.smarthouse.sharedobjects.dto.ModuleDto;
 import pl.smarthouse.sharedobjects.dto.core.Bme280ResponseDto;
 import pl.smarthouse.sharedobjects.enums.Operation;
 

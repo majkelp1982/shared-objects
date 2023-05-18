@@ -9,7 +9,7 @@ import pl.smarthouse.sharedobjects.dto.comfort.core.TemperatureControl;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class ComfortModuleSettingsDto {
+public class ComfortModuleParamsDto {
   private @NonNull AirExchanger airExchanger;
   private @NonNull TemperatureControl temperatureControl;
   private @NonNull HumidityAlert humidityAlert;
