@@ -14,5 +14,5 @@ public class HumidityAlert {
   private int maxHumidity;
   private int requiredPower;
   private int requiredTurboPower;
-  private int delayTimeInMinutes;
+  private int holdTimeInMinutes;
 }

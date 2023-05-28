@@ -15,6 +15,8 @@ public class ForcedAirControl {
   private boolean airConditionEnabled;
   private double forcedAirTolerance;
   private double airConditionTolerance;
+  private int forcedAirRequiredPower;
+  private int airConditionRequiredPower;
 
   private List<TimeRange> workdayTimeRangeList;
   private List<TimeRange> weekendTimeRangeList;

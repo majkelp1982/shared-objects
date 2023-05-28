@@ -12,10 +12,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class AirExchanger {
   private boolean enabled;
-  private int stateChangeInMinutes;
-  private int onTimeInMinutes;
-  private int offTimeInMinutes;
-
+  private int requiredPower;
   private List<TimeRange> workdayTimeRangeList;
   private List<TimeRange> weekendTimeRangeList;
 }

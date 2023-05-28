@@ -13,6 +13,18 @@ import pl.smarthouse.sharedobjects.enums.Operation;
 @NoArgsConstructor
 @AllArgsConstructor
 public class ComfortModuleDto extends ModuleDto {
-  private Bme280ResponseDto sensor;
+  private Bme280ResponseDto sensorResponse;
   private Operation currentOperation;
+  private int requiredPower;
+  private long leftHoldTimeInMinutes;
+
+  public void setAction(Operation operation, int requiredPower) {
+    this.currentOperation = operation;
+    this.requiredPower = requiredPower;
+  }
+
+  public void setStandby() {
+    this.currentOperation = Operation.STANDBY;
+    this.requiredPower = 0;
+  }
 }
