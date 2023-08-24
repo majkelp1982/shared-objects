@@ -2,6 +2,7 @@ package pl.smarthouse.sharedobjects.dto.ventilation;
 
 import lombok.*;
 import pl.smarthouse.sharedobjects.dto.comfort.core.TimeRange;
+import pl.smarthouse.sharedobjects.dto.ventilation.enums.IntakeThrottleMode;
 
 @Data
 @Builder
@@ -14,6 +15,7 @@ public class VentModuleParamsDto {
   private boolean airCoolingEnabled;
   private boolean airConditionEnabled;
   private boolean nightHoursEnabled;
+  private IntakeThrottleMode intakeThrottleMode;
 
   private TimeRange nightHours;
   private int inletFanNightHoursMaxPower;
