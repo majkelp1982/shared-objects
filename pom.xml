@@ -9,6 +9,9 @@
         <version>2.7.10</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+    <properties>
+        <java.version>11</java.version>
+    </properties>
 
     <groupId>pl.smarthouse</groupId>
     <artifactId>shared-objects</artifactId>
