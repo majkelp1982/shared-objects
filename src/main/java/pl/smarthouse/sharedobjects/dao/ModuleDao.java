@@ -11,4 +11,6 @@ import org.springframework.data.annotation.Transient;
 public abstract class ModuleDao {
   @NonNull @Transient protected String moduleName;
   LocalDateTime saveTimestamp;
+  boolean error;
+  boolean errorPendingAcknowledge;
 }
