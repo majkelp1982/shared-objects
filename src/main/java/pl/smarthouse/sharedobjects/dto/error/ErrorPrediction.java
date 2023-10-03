@@ -14,6 +14,7 @@ public class ErrorPrediction implements Cloneable {
   private boolean enable;
   @NonNull private final Predicate<? extends ModuleDao> predicate;
   @NonNull private final String message;
+  private final int priority;
   private LocalDateTime beginTimestamp;
   private LocalDateTime endTimestamp;
   private boolean active;
