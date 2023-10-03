@@ -11,15 +11,15 @@ import pl.smarthouse.sharedobjects.dao.ModuleDao;
 @EqualsAndHashCode
 @RequiredArgsConstructor
 public class ErrorPrediction implements Cloneable {
-  private boolean enable;
-  @NonNull private final Predicate<? extends ModuleDao> predicate;
   @NonNull private final String message;
   private final int priority;
+  @NonNull private final Predicate<? extends ModuleDao> predicate;
+  private final Consumer<Boolean> stateChangedListener;
+  private boolean enable;
   private LocalDateTime beginTimestamp;
   private LocalDateTime endTimestamp;
   private boolean active;
   private boolean pendingAcknowledge;
-  private final Consumer<Boolean> stateChangedListener;
 
   @Override
   public Object clone() throws CloneNotSupportedException {
