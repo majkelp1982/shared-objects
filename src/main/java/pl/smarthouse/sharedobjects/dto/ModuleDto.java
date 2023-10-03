@@ -14,4 +14,6 @@ public abstract class ModuleDto {
   String moduleName;
   String serviceAddress;
   LocalDateTime updateTimestamp;
+  boolean error;
+  boolean errorPendingAcknowledge;
 }
