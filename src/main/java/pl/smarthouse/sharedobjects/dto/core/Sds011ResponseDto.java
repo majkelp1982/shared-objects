@@ -10,7 +10,6 @@ import lombok.experimental.SuperBuilder;
 @AllArgsConstructor
 public class Sds011ResponseDto extends ResponseDto {
   private Sds011State mode;
-  private boolean error;
   private double pm025;
   private double pm10;
 }

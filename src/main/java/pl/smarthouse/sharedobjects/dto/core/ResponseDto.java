@@ -12,4 +12,5 @@ import lombok.experimental.SuperBuilder;
 @AllArgsConstructor
 public abstract class ResponseDto {
   protected LocalDateTime responseUpdate;
+  private boolean error;
 }
