@@ -1,4 +1,4 @@
-package pl.smarthouse.sharedobjects.dto.comfort.core;
+package pl.smarthouse.sharedobjects.dto.core;
 
 import java.time.LocalTime;
 import lombok.AllArgsConstructor;

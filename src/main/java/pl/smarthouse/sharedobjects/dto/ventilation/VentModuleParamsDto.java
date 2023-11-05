@@ -1,7 +1,7 @@
 package pl.smarthouse.sharedobjects.dto.ventilation;
 
 import lombok.*;
-import pl.smarthouse.sharedobjects.dto.comfort.core.TimeRange;
+import pl.smarthouse.sharedobjects.dto.core.TimeRange;
 import pl.smarthouse.sharedobjects.dto.ventilation.enums.IntakeThrottleMode;
 
 @Data
