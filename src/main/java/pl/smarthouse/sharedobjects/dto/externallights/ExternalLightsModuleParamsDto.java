@@ -11,7 +11,7 @@ import pl.smarthouse.sharedobjects.dto.externallights.core.LightZoneDto;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class ExternalLightsModuleParamDto {
+public class ExternalLightsModuleParamsDto {
   TimeRange enableTimeRange;
   private LightZoneDto entrance;
   private LightZoneDto driveway;
