@@ -5,7 +5,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import pl.smarthouse.sharedobjects.dto.core.TimeRange;
-import pl.smarthouse.sharedobjects.dto.externallights.core.LightZoneDto;
+import pl.smarthouse.sharedobjects.dto.externallights.core.LightZoneParamDto;
 
 @Data
 @Builder
@@ -13,9 +13,9 @@ import pl.smarthouse.sharedobjects.dto.externallights.core.LightZoneDto;
 @AllArgsConstructor
 public class ExternalLightsModuleParamsDto {
   TimeRange enableTimeRange;
-  private LightZoneDto entrance;
-  private LightZoneDto driveway;
-  private LightZoneDto carport;
-  private LightZoneDto garden;
+  private LightZoneParamDto entrance;
+  private LightZoneParamDto driveway;
+  private LightZoneParamDto carport;
+  private LightZoneParamDto garden;
   private int lightIntenseThreshold;
 }
