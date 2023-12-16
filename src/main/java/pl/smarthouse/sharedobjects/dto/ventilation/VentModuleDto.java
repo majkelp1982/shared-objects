@@ -29,6 +29,7 @@ import pl.smarthouse.sharedobjects.enums.ZoneName;
 })
 public class VentModuleDto extends ModuleDto {
   private HashMap<ZoneName, ZoneDto> zoneDtoHashMap;
+  private State fireplaceAirOverpressureActive;
   private FansDto fans;
   private IntakeThrottleDto intakeThrottle;
   private AirExchangerDto airExchanger;
