@@ -18,7 +18,7 @@ public class ComfortModuleDto extends ModuleDto {
   private Bme280ResponseDto sensorResponse;
   private FunctionType functionType;
   private Operation currentOperation;
-  private State disableTemperatureTimeRanges;
+  private State temperatureTimeRanges;
   private int requiredPower;
   private long leftHoldTimeInMinutes;
 
