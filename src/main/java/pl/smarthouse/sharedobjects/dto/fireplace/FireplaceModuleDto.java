@@ -6,9 +6,9 @@ import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 import pl.smarthouse.sharedobjects.dto.ModuleDto;
 import pl.smarthouse.sharedobjects.dto.core.Ds18b20ResultDto;
+import pl.smarthouse.sharedobjects.dto.core.enums.State;
 import pl.smarthouse.sharedobjects.dto.fireplace.core.Throttle;
 import pl.smarthouse.sharedobjects.dto.fireplace.enums.Mode;
-import pl.smarthouse.sharedobjects.dto.fireplace.enums.State;
 
 @Data
 @SuperBuilder

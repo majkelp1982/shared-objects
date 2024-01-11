@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 import lombok.experimental.SuperBuilder;
+import pl.smarthouse.sharedobjects.dto.core.enums.PinState;
 
 @Data
 @SuperBuilder

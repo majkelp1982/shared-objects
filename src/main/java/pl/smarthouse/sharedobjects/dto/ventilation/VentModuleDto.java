@@ -7,11 +7,11 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 import pl.smarthouse.sharedobjects.dto.ModuleDto;
+import pl.smarthouse.sharedobjects.dto.core.enums.State;
 import pl.smarthouse.sharedobjects.dto.ventilation.core.AirExchangerDto;
 import pl.smarthouse.sharedobjects.dto.ventilation.core.FansDto;
 import pl.smarthouse.sharedobjects.dto.ventilation.core.ForcedAirSystemExchangerDto;
 import pl.smarthouse.sharedobjects.dto.ventilation.core.IntakeThrottleDto;
-import pl.smarthouse.sharedobjects.dto.ventilation.enums.State;
 import pl.smarthouse.sharedobjects.enums.ZoneName;
 
 @Data

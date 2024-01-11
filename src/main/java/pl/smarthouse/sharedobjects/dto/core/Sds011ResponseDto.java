@@ -2,6 +2,7 @@ package pl.smarthouse.sharedobjects.dto.core;
 
 import lombok.*;
 import lombok.experimental.SuperBuilder;
+import pl.smarthouse.sharedobjects.dto.core.enums.Sds011State;
 
 @Data
 @SuperBuilder
