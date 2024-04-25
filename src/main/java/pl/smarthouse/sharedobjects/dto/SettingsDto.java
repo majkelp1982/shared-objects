@@ -23,5 +23,5 @@ public class SettingsDto {
   Instant moduleUpdateTimestamp;
   Instant serviceUpdateTimestamp;
   boolean connectionEstablish;
-a  long uptimeInMinutes;
+  long uptimeInMinutes;
 }
