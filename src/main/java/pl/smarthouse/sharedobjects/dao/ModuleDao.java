@@ -9,7 +9,7 @@ import org.springframework.data.annotation.Transient;
 @Data
 @SuperBuilder
 public abstract class ModuleDao {
-  @NonNull @Transient protected String moduleName;
+  @NonNull @Transient protected String type;
   LocalDateTime saveTimestamp;
   boolean error;
   boolean errorPendingAcknowledge;
