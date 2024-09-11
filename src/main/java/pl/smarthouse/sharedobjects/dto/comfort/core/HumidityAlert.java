@@ -15,4 +15,5 @@ public class HumidityAlert {
   private int requiredPower;
   private int requiredTurboPower;
   private int holdTimeInMinutes;
+  private boolean forceTrigger;
 }
