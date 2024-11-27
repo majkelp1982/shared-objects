@@ -8,4 +8,5 @@ public class ZoneState {
   State state;
   int brightness;
   int colorTemperature;
+  Mode mode;
 }
