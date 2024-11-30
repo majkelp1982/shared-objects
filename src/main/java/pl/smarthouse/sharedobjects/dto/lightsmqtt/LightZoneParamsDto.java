@@ -9,9 +9,13 @@ import org.springframework.validation.annotation.Validated;
 @Validated
 public class LightZoneParamsDto {
 
-  @Min(10)
-  @Max(100)
+  @Min(1)
+  @Max(254)
   int standby;
 
+  @Min(50)
+  @Max(500)
   int colorTemperature;
+
+  int holdTime;
 }
