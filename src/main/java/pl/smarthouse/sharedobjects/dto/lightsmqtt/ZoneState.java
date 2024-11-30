@@ -9,4 +9,5 @@ public class ZoneState {
   int brightness;
   int colorTemperature;
   Mode mode;
+  int holdTimeleft;
 }
