@@ -8,5 +8,6 @@ import pl.smarthouse.sharedobjects.dto.core.TimeRange;
 public class LightsMqttParamDto {
   HashMap<LightZone, LightZoneParamsDto> zoneParams;
   HashMap<String, LightZone> lights;
+  HashMap<String, LightZone> motionSensors;
   TimeRange enableTimeRange;
 }

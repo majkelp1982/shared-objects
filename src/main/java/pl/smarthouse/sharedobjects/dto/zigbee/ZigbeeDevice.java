@@ -36,7 +36,7 @@ public class ZigbeeDevice {
   @NoArgsConstructor
   @Data
   @JsonIgnoreProperties(ignoreUnknown = true)
-  public class Definition {
+  public static class Definition {
     String description;
     String model;
   }
