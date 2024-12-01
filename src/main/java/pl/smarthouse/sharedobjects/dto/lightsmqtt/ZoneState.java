@@ -1,5 +1,6 @@
 package pl.smarthouse.sharedobjects.dto.lightsmqtt;
 
+import java.time.LocalDateTime;
 import lombok.Data;
 import pl.smarthouse.sharedobjects.dto.core.enums.State;
 
@@ -9,5 +10,5 @@ public class ZoneState {
   int brightness;
   int colorTemperature;
   Mode mode;
-  int holdTimeleft;
+  LocalDateTime triggerTimeStamp;
 }
