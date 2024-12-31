@@ -4,6 +4,6 @@ import lombok.Data;
 
 @Data
 public class ChillZoneParamModuleDto {
-  private final SpaDeviceParam sauna;
-  private final SpaDeviceParam chillRoom;
+  private SpaDeviceParam sauna;
+  private SpaDeviceParam chillRoom;
 }
